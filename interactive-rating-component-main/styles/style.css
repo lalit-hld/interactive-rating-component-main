@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: hsl(217, 12%, 63%);
+    font-family: Overpass;
+    font-size: 15px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 12%, 8%);
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 15px;
+    
+}
+
+.star-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hsl(213, 19%, 18%);
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+}
+h3{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+.box2{
+    display: flex;
+    justify-content: space-around;
+}
+.box2 > p {
+    padding: 10px 15px;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    font-weight: 400;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.box2>p:hover{
+    background-color: hsl(216, 12%, 54%);
+}
+button{
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    border-radius: 30px;
+    font-weight: 400;
+    border: none;
+}
+p.active {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+.btn-click{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
